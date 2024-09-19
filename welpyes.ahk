@@ -3,7 +3,7 @@
 
 ; Bind Alt + Enter to open Windows Terminal
 !Enter::
-Run, "C:\Program Files\terminal-1.21.2361.0\WindowsTerminal.exe"
+Run, C:\Program Files\terminal-1.21.2361.0\WindowsTerminal.exe
 return
 
 ; Bind Alt + E to open File Explorer
@@ -13,6 +13,5 @@ return
 
 ; Bind Alt + Space to open Flow Launcher
 !Space::
-Run, "C:\Users\pc 3\scoop\apps\flow-launcher\current\Flow.Launcher.exe"
+Run, C:\Users\pc 3\scoop\apps\flow-launcher\current\Flow.Launcher.exe
 return
-
