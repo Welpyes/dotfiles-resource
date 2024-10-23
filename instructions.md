@@ -1,8 +1,9 @@
 ### Downloads
 
-Termux download (armabiv8)
-https://github.com/termux/termux-app/releases/download/v0.119.0-beta.1/termux-app_v0.119.0-beta.1+apt-android-7-github-debug_arm64-v8a.apk
-Termux X-11 download(for displaying gui)
+Termux download (armabiv8)<br>
+https://github.com/termux/termux-app/releases/download/v0.119.0-beta.1/termux-app_v0.119.0-beta.1+apt-android-7-github-debug_arm64-v8a.apk <BR>
+ <br>
+Termux X-11 download(for displaying gui) <br>
 https://github.com/ahmad1abbadi/extra/releases/download/apps/termux-x11.apk
 
 
@@ -63,4 +64,4 @@ nano /etc/pacman.d/mirrorlist
 ```
 
 import script
-wget https://raw.githubusercontent.com/Welpyes/dotfiles-resource/refs/heads/main/startxfce4_arch.sh
+```wget https://raw.githubusercontent.com/Welpyes/dotfiles-resource/refs/heads/main/startxfce4_arch.sh```
