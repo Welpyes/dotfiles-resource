@@ -23,16 +23,21 @@ dependencies and proot distro
 pkg install termux-x11-nightly
 pkg install pulseaudio
 pkg install proot-distro
+pkg install wget
 ```
 proot distro arch installation
 ```
-proot distro archlinux stuff
 proot-distro install archlinux
 proot-distro login archlinux
 ```
+change arch mirrors and select your region
+**note**: disable the geo ip server
+```
+nano /etc/pacman.d/mirrorlist
+```
+
 update packages
 ```
-pacman -Sy
 pacman -Syu
 ```
 
@@ -44,8 +49,14 @@ pacman -S xfce4
 
 adding user to log in to
 ```
-add user
 useradd -m -G wheel Welpyes
+```
+add password to user 
+```
+passwd Welpyes
+```
+open sudoers file with nano
+```
 nano /etc/sudoers
 ```
 inside nano add this below ROOT
@@ -54,14 +65,9 @@ Welpyes ALL=(ALL) ALL
 ```
 
 select timezone
-tzselect
-
-//export TZ='Asia/Manila'//
-
-change arch mirrors and select your region
-```
-nano /etc/pacman.d/mirrorlist
-```
+`tzselect`
+copy timezone 
+`export tz={timezone}`
 
 import script
 ```wget https://raw.githubusercontent.com/Welpyes/dotfiles-resource/refs/heads/main/startxfce4_arch.sh```
